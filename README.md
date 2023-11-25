@@ -5,7 +5,7 @@
 ~~~ 
 
 module "eks-module" {
-  source         = "./source"
+  source         = "https://github.com/YannickA2023/oct-eks.git"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
   dns_hostnames  = true
